@@ -14,6 +14,7 @@ const StudentVeiw = () => {
     const fetchData=()=>{
         axios.get(apiLink).then(
             (response)=>{
+            
                 setVeiwData(response.data)
             }
         )
